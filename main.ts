@@ -1,10 +1,70 @@
-basic.forever(function on_forever() {
-    basic.showIcon(IconNames.Heart)
-    basic.clearScreen()
-    basic.pause(500)
-    basic.showIcon(IconNames.SmallHeart)
-    basic.clearScreen()
-    basic.pause(500)
-    basic.showIcon(IconNames.Heart)
-    music.playMelody("G B A G C5 B A B ", 120)
-})
+basic.showLeds(`
+    # . . . #
+    # . . . #
+    # # # # #
+    # . . . #
+    # . . . #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    # # # # #
+    # . . . .
+    # # # # #
+    # . . . .
+    # # # # #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    # . . . .
+    # . . . .
+    # . . . .
+    # . . . .
+    # # # # #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    # . . . .
+    # . . . .
+    # . . . .
+    # . . . .
+    # # # # #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    # # # # #
+    # . . . #
+    # . . . #
+    # . . . #
+    # # # # #
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
