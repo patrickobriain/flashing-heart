@@ -6,4 +6,5 @@ def on_forever():
     basic.clear_screen()
     basic.pause(500)
     basic.show_icon(IconNames.HEART)
+    music.play_melody("", 120)
 basic.forever(on_forever)
