@@ -6,5 +6,5 @@ basic.forever(function on_forever() {
     basic.clearScreen()
     basic.pause(500)
     basic.showIcon(IconNames.Heart)
-    music.playMelody("", 120)
+    music.playMelody("A, B, C", 120)
 })
